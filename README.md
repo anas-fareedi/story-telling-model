@@ -1,15 +1,8 @@
-# story-telling-model
-built story-telling-model using hugging face transformers
-this is for the practise of using transformer architecture
-## i also learn about llm and its working
-th research paper  "attention all you need " about transformers is great to build understanding
-hey
-
 # Story Telling Model
 
 A research / experimental codebase for training and running story-generation models. This repository contains training and inference utilities, data-format conventions, evaluation scripts, and guidance for fine-tuning transformer-based language models for creative story generation.
 
-This README is intended to give contributors and users a clear, practical path to reproduce experiments, run inference locally, and extend the project.
+Recommanded research paper  "attention all you need " for transformers is great for better understanding
 
 - Repository: anas-fareedi/story-telling-model
 - Repo ID: 1088029559
@@ -192,20 +185,6 @@ Contributions are welcome. Steps:
 
 Please follow the code style used in the repo and write clear commit messages. If you're adding models or datasets, include licensing information and dataset provenance.
 
-Roadmap
--------
-Planned improvements:
-- Add automated training configs for LoRA/PEFT
-- Add evaluation dashboards (wandb / MLFlow)
-- Provide reference pre-trained checkpoints (if licensing allows)
-- Add more dataset converters and example notebooks
-
-Ethics & limitations
---------------------
-- Creative text generation models can produce biased, offensive, or factually incorrect content. Always review outputs before publishing or deploying.
-- Datasets used to train models may contain copyrighted or private content. Ensure you have the right to use and redistribute any dataset you include.
-- Do not deploy this model for safety-critical tasks without rigorous evaluation and human oversight.
-
 License & citation
 ------------------
 Add LICENSE file in repository root. Example: MIT License.
@@ -220,7 +199,6 @@ If you use this repository in your work, please cite the repository and any base
   howpublished = {\url{https://github.com/anas-fareedi/story-telling-model}}
 }
 ```
-
 Contact
 -------
 Repository owner: anas-fareedi
@@ -230,10 +208,3 @@ For issues and feature requests, please open an issue on GitHub.
 Acknowledgements
 ----------------
 This project builds on open-source tools such as Hugging Face Transformers, PyTorch, and the broader community datasets and model implementations.
-
----
-
-If you want, I can:
-- generate a starter training config (YAML) for Hugging Face Trainer / Accelerate,
-- add a sample data conversion script,
-- or draft a CONTRIBUTING.md and LICENSE file for this repo.
